@@ -12,4 +12,4 @@ An additional method is available to clear the current contents of the buffer.
 
 Beware of creating a ring buffer that's too large; because it resides in the processor's RAM, you're constrained by the size of RAM.  For example, an Arduino Uno has only 2048 bytes of RAM, and some of that will certainly be used by other variables in your code and the libraries you use.
 
-The sketches directory contains a sample sketch to show how the RingBuffer class can be used.
+The examples directory contains a sample sketch to show how the RingBuffer class is used.
