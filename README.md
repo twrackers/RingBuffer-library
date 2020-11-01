@@ -1,4 +1,6 @@
-# RingBuffer
+# RingBuffer [DEPRECATED] #
+
+_This library has been deprecated, because many libraries installed with, or available for, the Arduino IDE define their own *RingBuffer* classes, causing conflicts when building code.  This *RingBuffer* library has been replaced by the *FIFO* library at https://github.com/twrackers/FIFO-library._
 
 This class implements a _ring buffer_ of a fixed capacity of bytes.  This is also sometimes called a _FIFO_ (first in first out) buffer or simply a FIFO.
 
